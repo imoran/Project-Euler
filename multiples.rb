@@ -7,5 +7,3 @@ def multiples(n)
     num if (num % 3).zero? ||  (num % 5).zero?
   end.reduce(:+)
 end
-
-multiples(1000)
